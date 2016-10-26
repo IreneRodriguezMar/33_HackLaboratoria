@@ -1,0 +1,138 @@
+/*header*/
+header{
+    background: -webkit-linear-gradient(gray,#E9E9E9);
+}
+a:hover{
+    color: #3AA5D1;
+}
+a{
+    color: black;
+}
+button{
+    width:50%;
+    border: solid #1D9F75;
+    margin-left: 25%;
+}
+button:hover{
+    background-color:  #9ED727;
+}
+li{
+    display: inline-block;
+    text-decoration: none;
+    padding: 5%;
+}
+/*header*/
+.registro{
+    color: gray;
+    font-size: 60px;
+}
+.imgcirculo:hover{
+    background-color: #9ED727;
+    opacity: 0.5;
+}
+
+.text-talleres{
+    font-size: 20px;  
+}
+.back1{
+   background-image: url(../img/colores.jpg)
+}s
+.imgcirculo{
+    border-radius: 40%;
+}
+.logo{
+    width: 50%;
+    height: 50px;
+}
+/*imagenes que cambian*/
+.contenedor{
+	display: flex;
+	min-height: 100vh;
+}
+.slider{
+	width: 100%;
+	height:500px;	
+	margin: auto;
+	position: relative;
+	list-style: none;
+	padding: 0;
+	display: flex;
+
+	justify-content: center;
+	align-items: flex-end;
+}
+.slider img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
+
+}
+.slider input[type="radio"]{
+	position: relative;
+	z-index: 50;
+	margin: 0;
+}
+.slider input[type="radio"]:checked ~ img{
+	opacity: 1;
+}
+.slider input[type="radio"] + label{
+	position: relative;
+	z-index: 50;
+	margin: 10px;
+} 
+
+/*termina imagenes 	que cambian*/
+
+/*footer*/
+footer {
+     background: -webkit-linear-gradient(#E9E9E9, gray);
+}
+footer *{
+    color: dimgray ;
+}
+footer img{
+    padding-top: 8%;
+    padding-right: 3%;
+    width: 10%;
+}
+/*segunda parte*/
+/*BACKGROUNDS*/
+.bggreen{
+    background-color: #9ED727;
+}
+.bgblue{
+    background-color: #3AA5D1;
+}
+.bgpink{
+    background-color: #F16AAD;
+}
+/*TEXT*/
+.textpink{
+    color: #F16AAD;
+}
+/*SECTIONS*/
+body{
+    background-color: #E9E9E9;
+}
+#patrocinadores{
+    background-color: whitesmoke;
+}
+#find{
+    background-image: url("../img/Colored.png");
+    background-position: top;
+}
+/*FOOTER*/
+footer {
+     background: -webkit-linear-gradient(#E9E9E9, gray);
+}
+footer *{
+    color: dimgray ;
+}
+footer img{
+    padding-top: 8%;
+    padding-right: 3%;
+    width: 10%;
+}

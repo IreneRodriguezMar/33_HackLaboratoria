@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="css/common.css">
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="css/hover-min.css">
+    <link rel="stylesheet" type="text/css" href="css/utilities.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body>
+    <header>
+        <div class="container-fluid">
+            <div class="row">
+               <nav>
+                    <div class="col-md-2 col-sm-2 col-xs-2">
+                        <img src="img/logo.png" alt="logo">
+                    </div>
+                    <div class="col-md-5 col-sm-5 col-xs-5">
+                        <ul>
+                            <li><a class="fz-20" href="talleres">Talleres</a></li>
+                            <li><a class="fz-20" href="informacion">Informacion</a></li>
+                            <li><a class="fz-20" href="donaciones">Donaciones</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-md-2 col-sm-2 col-xs-2 pd-2">
+                        <button class="btn" id="login"><a href="login">LOGIN</a></button>
+                    </div>
+                    <div class="col-md-3 col-sm-3 col-xs-3 pd-2">
+                            <input type="text" class="form-control" placeholder="Buscar">
+                    </div>
+                </nav>
+            </div>
+        </div>
+     </header>
+     <section class="back1">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 col-xs-12">
+                     <ul class="slider">
+                        <li>
+                            <input type="radio" id="sbutton1" name="sradio" checked="">
+                            <label for="abutton1"></label>
+                            <img class="img-thumbnail imggrupo" src="img/teatro.jpg">
+                            </li>
+                        <li>
+                            <input type="radio" id="sbutton2" name="sradio">
+                            <label for="abutton2"></label>
+                            <img class="img-thumbnail imggrupo" src="img/musica.jpg">
+                        </li>
+                        <li>
+                            <input type="radio" id="sbutton2" name="sradio">
+                            <label for="abutton2"></label>
+                            <img class="img-thumbnail imggrupo" src="img/hiphop.jpg">
+                        </li>
+                        </ul>
+                </div>
+                <div class="text-center mt-30  col-md-6 col-sm-6 col-xs-12">
+                    <div id="registro">
+                         <p class="registro fz-20"><strong>Registro</strong></p>
+                         <button class="btn block mt-5" id="escuelas"><b>Escuelas</b></button>
+                         <button class="btn block mt-5" id="voluntarios"><b>Voluntarios</b></button>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="mt-30 text-center col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/aro.png" alt="basquet">
+                                <p class="text-talleres">Basquetbol</p>
+                            </div>
+                        </div> 
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/bola.png" alt="futbol">
+                                <p class="text-talleres">Futboll</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/dibujo.png" alt="dibujo">
+                                <p class="text-talleres">Dibujo</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/escultura.png" alt="escultura">
+                                <p class="text-talleres">Escultura</p>
+                            </div>
+                        </div>   
+                     </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="text-center col-md-12 col-sm-12 col-xs-12">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/guitarra.png" alt="Guitarra">
+                                <p class="text-talleres">Guitarra</p>
+                            </div>
+                        </div> 
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/hiphop.png" alt="Hip-hop">
+                                <p class="text-talleres">Hip-hop</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/musica.png" alt="Música">
+                                <p class="text-talleres">Música</p>
+                            </div>
+                        </div>
+                        <div class="col-md-3 col-sm-3 col-xs-3">
+                            <div>
+                                <img class="imgcirculo" src="img/teatro.png" alt="Teatro">
+                                <p class="text-talleres">Teatro</p>
+                            </div>
+                        </div>   
+                     </div>
+                </div>
+            </div> 
+        </div>
+    </section>
+    <!--ENCUENTRA ESCUELAS/MAESTROS-->
+	<section>
+	    <div class="container-fluid">
+	        <div class="row pd-5" id="find">
+	            <div class="col-xs-12 col-sm-6 col-md-6 pl-10">
+	                <a href="voluntarios.html"><button type="button" class="btn-lg center-block white bgblue pd-10 hvr-grow">ENCUENTRA MAESTROS</button></a>
+	            </div>
+	            <div class="col-xs-12 col-sm-6 col-md-6 pl-10">
+	                <a href="escuelas.html"><button type="button" class="btn-lg bggreen white pd-10 hvr-grow">ENCUENTRA ESCUELAS</button></a>
+	            </div>
+	        </div>
+	    </div>
+	</section>
+	<!--PATROCINADORES-->
+	<section id="patrocinadores">
+	    <div class="container-fluid hidden-xs">
+            <div class="row pt-5 pb-5">
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/crayola.png" alt="crayola" class="w100"></div>
+                </div>
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/Hasbro.png" alt="hasbro" class="w100"></div>
+                </div>
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/scribe.png" alt="crayola" class="w100"></div>
+                </div>
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/SEP.png" alt="crayola" class="w100"></div>
+                </div>
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/Telmex.png" alt="telmex" class="w100"></div>
+                </div>
+                <div class="col-sm-2 col-md-2 pd-0">
+                    <div class="pd-10"><img src="img/fisher.png" alt="fisherprice" class="w100"></div>
+                </div>
+            </div>
+	    </div>
+	</section>
+	<!--FOOTER-->
+	<footer>
+	    <div class="container-fluid">
+	        <div class="row pt-3">
+	            <div class="hidden-xs col-sm-6 col-md-6 pl-5">
+	                <address>
+                      <h4>LABORATORIA</h4>
+                      <p>Campeche 280 tercer piso<br>
+                      Colonia Condesa, CDMX, 06100<br>
+                      <abbr title="Phone">Tel:</abbr> (123) 456-7890</p>
+                      <a href="" class="">conarte@conarte.mx</a>
+                    </address>
+	            </div>
+	            <div class="col-xs-12 col-sm-6 col-md-6">
+	                <a href=""><img src="img/youtube.png" alt="youtube" class="inl pull-right hvr-shrink">
+	                </a>
+	                <a href=""><img src="img/logo-de-instagram.png" alt="instagram" class="inl pull-right hvr-shrink"></a>
+	                <a href=""><img src="img/twitter.png" alt="twitter" class="inl pull-right hvr-shrink">
+	                </a>
+	                <a href=""><img src="img/logo-de-facebook.png" alt="facebook" class="inl pull-right hvr-shrink">
+	                </a>
+	            </div>
+	        </div>
+	    </div>
+	</footer>
+	 <!--BOOTSTRAP-->
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/6013be0e09.js"></script>
+</body>
+</html>

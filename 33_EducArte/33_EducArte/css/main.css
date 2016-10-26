@@ -1,0 +1,37 @@
+/*BACKGROUNDS*/
+.bggreen{
+    background-color: #9ED727;
+}
+.bgblue{
+    background-color: #3AA5D1;
+}
+.bgpink{
+    background-color: #F16AAD;
+}
+/*TEXT*/
+.textpink{
+    color: #F16AAD;
+}
+/*SECTIONS*/
+body{
+    background-color: #E9E9E9;
+}
+#patrocinadores{
+    background-color: whitesmoke;
+}
+#find{
+    background-image: url("../img/Colored.png");
+    background-position: top;
+}
+/*FOOTER*/
+footer {
+     background: -webkit-linear-gradient(#E9E9E9, gray);
+}
+footer *{
+    color: dimgray ;
+}
+footer img{
+    padding-top: 8%;
+    padding-right: 3%;
+    width: 10%;
+}
